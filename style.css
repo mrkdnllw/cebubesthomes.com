@@ -1,0 +1,205 @@
+/*
+Theme Name: Houzez Child
+Theme URI: http://www.favethemes.com/
+Author: Favethemes
+Author URI: http://www.favethemes.com/
+Description: Houzez is a premium WordPress theme for real estate agents where modern aesthetics are combined with tasteful simplicity, and where the ease of use is achieved without compromise in your ability to customise the design. Whether you are a real estate agent looking to build a website for your company or a web developer seeking a perfect WordPress theme for your next project, you are certain to appreciate the numerous features and benefits that our theme provides.
+Version: 1.0
+Tags: white, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, post-formats, theme-options, translation-ready
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: houzez
+Template: houzez
+*/
+
+
+@import url("../houzez/style.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* Your CSS code goes here
+-------------------------------------- */
+
+
+div.partner-block{
+  height: 150px;
+}
+
+div#page_counter {
+    background-color: #00335A;
+	color: #ffffff;
+	text-align: center; 
+	font-size: 11px;
+}
+.footer_louwe{
+    padding-left: 70px;
+    }
+.td_louwe{
+      padding-left: 60px;
+      }
+
+@media only screen and (max-width: 600px) {
+  .footer_louwe {
+    padding-left:5px;
+  }
+  .td_louwe{
+      padding-left: 0px;
+      }
+	  
+	  #slider-3{
+width: 209px !important;
+}
+
+#search_form_louwe{
+ 	padding-bottom: 25px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+
+
+input#inputtext_louwe{
+	
+	margin-top: 10px;
+}
+}
+
+
+
+@media only screen and (min-width: 700px) {
+#header-section > div > div.header-left > nav{
+ width: 1024px;
+}
+
+#search_form_louwe{
+	padding-left: 300px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+}
+
+input#inputtext_louwe{
+	
+	width:600px;
+}
+
+#slider-3{
+	/*margin-left: 191px;*/
+	width: 600px;
+}
+
+
+} /* close @media only..  */
+
+
+#price{
+	
+	width: 300px;
+}
+
+
+
+
+div#search_form_louwe {
+    display: flex;
+    height: 418px;
+    /* line-height: 39px; */
+    align-items: center;
+    background-image: url(https://cebubesthomes.com/wp-content/uploads/2020/11/20180615_140113-scaled-1.webp);
+    background-size:cover;
+    background-position:center;
+}
+
+.xmas_update{
+ padding-left: 7px;
+    padding-bottom: 23px;   
+}
+/*DECEMBER ==========================================================================================================*/
+
+.sanna_cards{
+display: flex;
+flex-direction: column; /*wrap kung desktop*/
+}
+
+.sanna_img1{
+	background-image: url(https://cebubesthomes.com/wp-content/uploads/2019/03/Robinsons-Homes-Aspen-Heights-300x168.jpg);
+	
+}
+
+
+.sanna_card{
+
+
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%; /*33% kung desktoop*/
+margin-right: 10px;
+
+position: relative;
+text-align: center;
+
+
+}
+
+.sanna_container{
+padding: 2px 16px;
+	
+	
+}
+
+.sanna_title1{
+	
+	
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+}
+
+.sanna_title2{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #37a8bb;
+	
+}
+
+.sanna_description{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: black;
+	
+}
+
+@media only screen and (min-width: 1025px) {
+	.sanna_cards{
+flex-direction: row;
+	}
+	
+	.sanna_card{
+		  width: 100%; 
+	}
+}
+
+/*12 21 2020 */
+
+.sanna_button{
+    
+font-family: Helvetica;
+  background-color: #ff6666;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    }
+
